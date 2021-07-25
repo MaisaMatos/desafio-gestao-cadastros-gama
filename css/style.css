@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;  
+  height: 30px;
+  padding: 25px;
+  background-color: #000;  
+  color:#fff 
+}
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.background-section-one{
+  background-color: lightslategray;
+  justify-content: center;
+  align-items: center;
+  height: 100px;  
+}
+
+.background-section-two{
+  background-color: lightgray;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 700px;
+}
+
+#content1, #content2{
+  padding-top: 20px;
+}
+
+.card-container{
+  background: lightgray;
+  border-radius: 25px;
+  padding: 50px;
+  max-width: 450px;
+  text-align: center; 
+
+}
+
+input{
+  width: 500px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  background:#fff;
+  color: #000
+}
+
+.botao{
+  width: 100px;
+  border-radius: 25px;
+  margin-left: 200px;
+  background-color: #000;
+  color: #fff;
+}
+
+form{
+  display: grid;
+}
+
+footer{
+  height: 80px;
+  padding: 25px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;  
+}
+
+.assinatura{
+color:#fff;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;  
+}
